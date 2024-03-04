@@ -738,6 +738,10 @@ footer .footer-content .socials .socialIcons {
   font-family: GSitalic;
   src: url(../fonts/Gill\ Sans\ Italic.otf);
 }
+@font-face {
+  font-family: PnXCONthin;
+  src: url(../fonts/FontsFree-Net-Proxima-Nova-ExCn-Thin.otf);
+}
 .Nav-White {
   border-bottom: 2px solid #fff;
   color: #fff;
@@ -790,6 +794,15 @@ footer .footer-content .socials .socialIcons {
   font-family: GSitalic;
   font-size: 20px;
   color: white;
+}
+
+.about .ab-title1 {
+  width: 171px;
+  height: 63px;
+  font-size: 60px;
+  border-bottom: 2px solid #000;
+  color: #000;
+  font-family: PnXCONthin;
 }
 
 /*# sourceMappingURL=styles.css.map */
