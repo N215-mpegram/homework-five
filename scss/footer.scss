@@ -9,7 +9,7 @@ footer {
         width: $content-width;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
     .fontFooter {
         font-family: GSmedreg;
@@ -43,7 +43,7 @@ footer {
     }
 }
 
-    @media all and (max-width: 980px) {
+    @media all and (max-width: 1000px) {
     footer {
         background-color: $site-blue;
         // width: 100%;
@@ -55,7 +55,7 @@ footer {
             margin: auto;
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-between;
     
         .fontFooter {
             font-family: GSmedreg;
