@@ -27,10 +27,18 @@ nav a {
   font-family: GSmedreg;
   font-size: 15px;
 }
-nav .logo {
+nav .logo-W {
   width: 92px;
   height: 42px;
   background-image: url(../images/logo-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav .logo-B {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-black.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -737,6 +745,15 @@ footer .footer-content .socials .socialIcons {
 
 .Font-nav-W {
   color: #fff;
+}
+
+.Nav-Black {
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+.Font-nav-B {
+  color: #000;
 }
 
 .font1 {
