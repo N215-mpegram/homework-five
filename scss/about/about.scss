@@ -1,11 +1,117 @@
 .about { 
+    width: $content-width;
+    margin: auto;
+    margin-top: 110px;
+    padding-bottom: 180px;
 
     .ab-title1 {
-        width: 171px;
-        height: 63px;
-        font-size: 60px;
+        width: $content-width;
+        min-height: 100px;
+
+        .ab-title1-font {
+            width: 190px;
+            height: 63px;
+            border-bottom: 2px solid #000;
+            color: #000;
+            font-size: 60px;
+            font-family: PnCONthin;
+        }
+
+        .ab-para-font {
+            font-size: 16px;
+            font-family: GSmedreg;
+            margin-top: 36px;
+        }
+    }
+
+    .ab-title2-font {
+        width: 266px;
+        height: 45px;
         border-bottom: 2px solid #000;
         color: #000;
-        font-family: PnXCONthin;
+        font-size: 40px;
+        font-family: PnCONthin;
+        margin-top: 106px;
     }
+
+    .client-quotes {
+        width: 670px;
+        height: 337px;
+        // background-color: cadetblue;
+        margin-top: 37px;
+
+        .CQ-quotes-font {
+            font-size: 16px;
+            font-family: GSitalic;
+        }
+
+        .CQ-quotesname-font {
+            font-size: 20px;
+            font-family: PnXCONthin;
+            color: $site-blue;
+        }
+
+        .CQ-p1 {
+            width: 670px;
+            height: 150px;
+            // background-color: burlywood;
+            position: relative;
+
+            .CQ-p1-img {
+                width: 260px;
+                height: 150px;
+                background-image: url(../images/about-client-01.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .CQ-p-quote {
+                width: 385px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+
+            .CQ-p-name {
+                height: 20px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+            }
+        }
+
+        .CQ-p2 {
+            width: 670px;
+            height: 150px;
+            // background-color: burlywood;
+            position: relative;
+            margin-top: 37px;
+
+            .CQ-p2-img {
+                width: 260px;
+                height: 150px;
+                background-image: url(../images/about-client-02.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .CQ-p-quote {
+                width: 385px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+
+            .CQ-p-name {
+                height: 20px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+            }
+        }
+
+    }
+
 }

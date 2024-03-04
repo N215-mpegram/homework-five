@@ -742,6 +742,10 @@ footer .footer-content .socials .socialIcons {
   font-family: PnXCONthin;
   src: url(../fonts/FontsFree-Net-Proxima-Nova-ExCn-Thin.otf);
 }
+@font-face {
+  font-family: PnCONthin;
+  src: url(../fonts/FontsFree-Net-Proxima-Nova-Cond-Thin.otf);
+}
 .Nav-White {
   border-bottom: 2px solid #fff;
   color: #fff;
@@ -796,13 +800,102 @@ footer .footer-content .socials .socialIcons {
   color: white;
 }
 
+.about {
+  width: 980px;
+  margin: auto;
+  margin-top: 110px;
+  padding-bottom: 180px;
+}
 .about .ab-title1 {
-  width: 171px;
+  width: 980px;
+  min-height: 100px;
+}
+.about .ab-title1 .ab-title1-font {
+  width: 190px;
   height: 63px;
-  font-size: 60px;
   border-bottom: 2px solid #000;
   color: #000;
+  font-size: 60px;
+  font-family: PnCONthin;
+}
+.about .ab-title1 .ab-para-font {
+  font-size: 16px;
+  font-family: GSmedreg;
+  margin-top: 36px;
+}
+.about .ab-title2-font {
+  width: 266px;
+  height: 45px;
+  border-bottom: 2px solid #000;
+  color: #000;
+  font-size: 40px;
+  font-family: PnCONthin;
+  margin-top: 106px;
+}
+.about .client-quotes {
+  width: 670px;
+  height: 337px;
+  margin-top: 37px;
+}
+.about .client-quotes .CQ-quotes-font {
+  font-size: 16px;
+  font-family: GSitalic;
+}
+.about .client-quotes .CQ-quotesname-font {
+  font-size: 20px;
   font-family: PnXCONthin;
+  color: #79ADDC;
+}
+.about .client-quotes .CQ-p1 {
+  width: 670px;
+  height: 150px;
+  position: relative;
+}
+.about .client-quotes .CQ-p1 .CQ-p1-img {
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/about-client-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .client-quotes .CQ-p1 .CQ-p-quote {
+  width: 385px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.about .client-quotes .CQ-p1 .CQ-p-name {
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.about .client-quotes .CQ-p2 {
+  width: 670px;
+  height: 150px;
+  position: relative;
+  margin-top: 37px;
+}
+.about .client-quotes .CQ-p2 .CQ-p2-img {
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/about-client-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .client-quotes .CQ-p2 .CQ-p-quote {
+  width: 385px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.about .client-quotes .CQ-p2 .CQ-p-name {
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */
